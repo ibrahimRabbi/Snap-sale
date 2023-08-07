@@ -1,0 +1,14 @@
+.button{
+    background-color: #8d5c2c;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;   
+}
+
+.price{
+    color: #8d5c2c;
+}
+
+.card-title:hover{
+  color: #8d5c2c;
+}

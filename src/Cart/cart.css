@@ -1,0 +1,7 @@
+.cart{
+    grid-template-columns: 4fr 2fr;
+}
+
+.text{
+   color: #8d5c2c;
+}
