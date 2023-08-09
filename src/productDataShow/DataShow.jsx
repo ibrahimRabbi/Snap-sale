@@ -3,15 +3,7 @@ import { useParams,useNavigate } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "./dataShow.css";
-import Cart from "../Cart/Cart";
 import Swal from "sweetalert2";
-
-
-
-
-
-
-
 
 
 const DataShow = () => {
@@ -20,25 +12,11 @@ const DataShow = () => {
   const [qunty, setQunty] = useState(1);
   const [size, setSize] = useState('')
   const navigate = useNavigate()
+  const images = [];
 
-  const images = [
-    {
-      original: "https://i.ibb.co/wJ91Zk3/FB-IMG-1690882888250.jpg",
-      thumbnail: "https://i.ibb.co/wJ91Zk3/FB-IMG-1690882888250.jpg",
-    },
-    {
-      original: "https://i.ibb.co/9hbnWxV/FB-IMG-1690883097855.jpg",
-      thumbnail: "https://i.ibb.co/9hbnWxV/FB-IMG-1690883097855.jpg",
-    },
-    {
-      original: "https://i.ibb.co/5xS72HL/FB-IMG-1690981357683.jpg",
-      thumbnail: "https://i.ibb.co/5xS72HL/FB-IMG-1690981357683.jpg",
-    },
-    {
-      original: "https://i.ibb.co/5xS72HL/FB-IMG-1690981357683.jpg",
-      thumbnail: "https://i.ibb.co/5xS72HL/FB-IMG-1690981357683.jpg",
-    },
-  ];
+  data[0]?.moreImg?.forEach(v => {
+     images.push({original: v,thumbnail:v})
+  })
 
   const incrementHandler = () => {
     setQunty((pre) => pre + 1);
@@ -102,7 +80,7 @@ const DataShow = () => {
       .then((res) => setData(res));
   }, []);
  
-
+console.log(data[0])
   return (
     <section className="w-[80%] gap-16 mx-auto my-14 grid grid-cols-2">
       <div>
@@ -170,8 +148,6 @@ const DataShow = () => {
           </button>
         </div>
       </div>
-
-      <Cart />
     </section>
   );
 };

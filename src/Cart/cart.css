@@ -5,3 +5,14 @@
 .text{
    color: #8d5c2c;
 }
+
+.calulation{
+     background-color: aliceblue;
+     padding: 10px;
+     font-size:16px ;     
+}
+
+.calulationBg{ 
+    background-image: linear-gradient(to bottom,#9c6c3b,#c78c51);
+    height: 400px;
+}

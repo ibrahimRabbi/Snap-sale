@@ -19,8 +19,8 @@ const deleteHandler = () => {
 
   return (
     <div className="flex items-start gap-6 border p-4 rounded-lg shadow-md bg-slate-100">
-      <div class="avatar">
-        <div class="w-32 rounded-xl">
+      <div className="avatar">
+        <div className="w-32 rounded-xl">
           <img src={img} alt="" />
         </div>
       </div>

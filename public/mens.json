@@ -1,6 +1,7 @@
 
   {
     "img": "https://i.ibb.co/YZt5qPw/toothbrush.jpg",
+    "moreImg" : ["https://i.ibb.co/wJ91Zk3/FB-IMG-1690882888250.jpg", "https://i.ibb.co/9hbnWxV/FB-IMG-1690883097855.jpg","https://i.ibb.co/5xS72HL/FB-IMG-1690981357683.jpg","https://i.ibb.co/5xS72HL/FB-IMG-1690981357683.jpg"],
     "price": 150,
     "category": "oralcare",
     "title": "collagte soft toothbrush",

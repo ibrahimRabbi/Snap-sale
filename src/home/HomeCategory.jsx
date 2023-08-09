@@ -70,7 +70,7 @@ const HomeCategory = () => {
             </div>
             <img
               className="w-[100%] rounded-lg my-4"
-              src="https://i.ibb.co/vQPV6PS/decorative-cosmetics-accessories-sunglasses-hat-white-table.jpg"
+              src="https://i.ibb.co/GvLVgjd/modern-stationary-collection-arrangement.jpg"
             />
             <button className="underline">See All</button>
           </div>
